@@ -5,7 +5,7 @@
 
 class Solution {
 public:
-	int myAtoi(string str) {
+	int myAtoi(std::string str) {
 		int len = str.length();
 		int sign = 1;  // set to negative 1 if the value is negative
 		int total = 0;  // keeps track of what to output as the integer
